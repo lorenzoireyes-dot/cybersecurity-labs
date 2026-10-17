@@ -1,22 +1,25 @@
 # Buffer Overflow Exploitation Laboratory
 
 ## Overview
-Documentation workspace for a controlled buffer overflow exploitation laboratory. This project will present the environment, vulnerability analysis, experimental methodology, observed results, and security implications.
 
-**Status:** Existing laboratory work awaiting source code, evidence, and technical documentation.
+An educational buffer overflow laboratory presented through the original assignment report and supporting screenshots.
 
-## Technical record
-- **Objective:** To be documented from the original laboratory work.
-- **Environment and tools:** Pending verification.
-- **Vulnerability and exploitation steps:** Pending original lab artifacts.
-- **Observed results:** Pending screenshots and logs.
-- **Mitigations and lessons learned:** Pending analysis.
+**Status:** Archived laboratory evidence. The report and screenshots are the final materials for this portfolio entry. No additional source code, virtual machine exports, or setup materials are planned.
 
-## Repository contents
-- `source/`: Laboratory source code and permitted proof of concept files.
-- `screenshots/`: Sanitized images demonstrating observed behavior.
-- `documentation/`: Report, technical analysis, and testing notes.
-- `vm_setup/`: Reproducible VM configuration and setup instructions.
+## Available evidence
 
-## Scope
-All demonstrations should be conducted only in systems owned by or explicitly authorized for testing. Do not publish credentials, private data, or unlicensed virtual machine images.
+- [Original laboratory report](documentation/BufferOverflow_Assignment2_Report_Polished.docx)
+- [Laboratory screenshots](screenshots/)
+
+The report is the primary reference for the experiment's objective, methods, and results. This README deliberately does not assert specific exploitation steps or outcomes that have not been independently reviewed.
+
+## Repository organization
+
+- `documentation/`: Original laboratory report.
+- `screenshots/`: Screenshots from the laboratory.
+- `source/`: No separately uploaded source code.
+- `vm_setup/`: Notes on the absence of a distributed VM image.
+
+## Scope and limitations
+
+This is a documentation and evidence archive rather than a complete, independently rebuildable laboratory package. No VM image is provided. All demonstrations are intended for authorized laboratory environments.
