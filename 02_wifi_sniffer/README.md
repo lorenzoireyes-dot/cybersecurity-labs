@@ -75,6 +75,11 @@ The report contains 12 numbered figures documenting the network setup, traffic i
 
 ## Reproduction and limitations
 
-This repository documents a completed course laboratory, not a turnkey deployment. The original report does not specify every Ubuntu release, package version, VM hardware allocation, or full VPN configuration file. Those details are not invented here. Virtual machine images and private VPN keys are intentionally not distributed.
+This repository is the final documentation archive for a completed course laboratory, not a turnkey deployment. The original report does not specify every Ubuntu release, package version, VM hardware allocation, or full VPN configuration file. Those details are not invented here. Virtual machine images and private VPN keys are intentionally not distributed.
 
 **Scope:** All traffic inspection and security demonstrations were conducted in an isolated, authorized virtual laboratory.
+
+
+## Archive status
+
+The original report, existing screenshots, benchmark summary, and environment notes are the final portfolio materials. No further files, virtual machine exports, original configuration files, or source code uploads are planned. Any empty folders are retained only from the original repository organization and are not outstanding deliverables.
