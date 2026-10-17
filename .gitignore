@@ -1,0 +1,32 @@
+# Virtual machine disks and exports
+*.vdi
+*.vmdk
+*.vhd
+*.vhdx
+*.ova
+*.ovf
+*.qcow2
+*.vbox
+*.vbox-prev
+
+# Packet captures may contain sensitive data
+*.pcap
+*.pcapng
+*.cap
+
+# Secrets and private keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_ed25519
+*.p12
+*.pfx
+
+# Local artifacts
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
