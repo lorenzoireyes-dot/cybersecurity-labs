@@ -1,27 +1,23 @@
 # Cybersecurity Labs
 
-A portfolio repository documenting practical cybersecurity laboratory work in memory corruption and wireless network traffic analysis.
+A technical portfolio documenting controlled cybersecurity laboratory experiments involving memory corruption, network traffic analysis, secure remote access, VPN implementation, and performance measurement.
 
 ## Projects
 
 ### [01 | Buffer Overflow Exploitation](01_buffer_overflow/README.md)
-Controlled laboratory investigation of buffer overflow behavior and exploitation concepts. The project folder is prepared for original source code, reproducible environment instructions, technical analysis, and verified evidence.
 
-### [02 | WiFi Packet Sniffing](02_wifi_sniffer/README.md)
-Wireless packet capture and network traffic analysis laboratory. The project folder is prepared for original scripts, capture methodology, sanitized screenshots, and technical findings.
+Controlled memory corruption and exploitation laboratory. The repository includes a report and screenshots. Its technical documentation is pending a detailed review of the original report.
+
+### [02 | Network Traffic Analysis and VPN Performance Comparison](02_wifi_sniffer/README.md)
+
+Completed ECE 4490/6490 laboratory using two Ubuntu virtual machines in an isolated Oracle VirtualBox network. Demonstrated Telnet credential exposure versus encrypted SSH sessions, configured WireGuard and OpenVPN tunnels, automated tunnel switching with Bash, and compared VPN throughput and latency using `iperf3` and ping.
+
+[Read the detailed project documentation](02_wifi_sniffer/README.md).
 
 ## Repository organization
 
-Each laboratory includes:
-- `source/` for scripts and code
-- `screenshots/` for sanitized evidence
-- `documentation/` for reports and technical analysis
-- `vm_setup/` for reproducible environment instructions
+Each project has dedicated directories for source files, screenshots, reports, and VM environment notes. The network security project includes recorded benchmark data and a link to the original laboratory report.
 
-## Current status
+## Scope and safety
 
-The repository structure and documentation templates are prepared. Original laboratory artifacts and verified findings have not yet been uploaded. These entries do not claim completed results beyond the work supplied by the project author.
-
-## Responsible laboratory practice
-
-All activities are intended for authorized, isolated laboratory environments. Virtual machine disk images, credentials, private keys, and raw packet captures are excluded from version control by default. Review every file for sensitive information before publishing.
+These are authorized educational laboratory experiments. The repository does not distribute full virtual machine images, live VPN private keys, credentials, or raw sensitive packet captures. Performance results are reported in the context of the test environment.
