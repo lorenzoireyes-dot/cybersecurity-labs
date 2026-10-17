@@ -1,25 +1,27 @@
 # Cybersecurity Labs
 
-A portfolio archive of completed educational cybersecurity laboratory work, presented through original reports, screenshots, and documented results.
+A portfolio archive documenting completed educational cybersecurity experiments in stack memory corruption, network traffic analysis, encrypted communications, and VPN performance testing.
 
 ## Projects
 
-### [01 | Buffer Overflow Exploitation](01_buffer_overflow/README.md)
+### [01 | Stack Buffer Overflow and Control Flow Hijacking](01_buffer_overflow/README.md)
 
-An educational buffer overflow laboratory. The original report and screenshots are the final evidence for this entry. No additional source files or virtual machine images are planned.
+**ECE 4490/6490, Assignment 2.** Analyzed an unchecked stack buffer in a course supplied Windows XP executable, used GDB to investigate the saved return address and x86 calling convention, redirected execution to an existing function, and verified command execution. The report explains the key debugging finding involving a missing return address slot when entering a function through `RET` instead of `CALL`.
+
+[Read the buffer overflow laboratory documentation](01_buffer_overflow/README.md).
 
 ### [02 | Network Traffic Analysis and VPN Performance Comparison](02_wifi_sniffer/README.md)
 
-A completed ECE 4490/6490 laboratory using two Ubuntu virtual machines on an isolated Oracle VirtualBox network. Examined Telnet and SSH traffic in Wireshark, configured WireGuard and OpenVPN, used Bash scripts to control VPN sessions, and compared measured throughput and latency.
+**ECE 4490/6490, Assignment 1.** Used two Ubuntu virtual machines on an isolated Oracle VirtualBox network to examine Telnet and SSH traffic in Wireshark, configure WireGuard and OpenVPN, automate VPN switching with Bash, and compare measured throughput and latency.
 
-[Read the network security project documentation](02_wifi_sniffer/README.md).
+[Read the network security laboratory documentation](02_wifi_sniffer/README.md).
 
 ## Documentation policy
 
-**These projects are archived with the materials already supplied.** Reports and screenshots constitute the portfolio evidence. No additional uploads, virtual machine exports, raw packet captures, or original source files are planned. Some directories remain empty because they were created as part of the initial repository organization; their presence does not indicate missing deliverables or unfinished work.
+Both projects are complete portfolio archives supported by their original reports and screenshots. No additional source files, VM exports, raw packet captures, or configuration uploads are planned. Some directories remain empty from the initial repository organization and do not represent outstanding deliverables.
 
-These archives are not represented as fully reproducible VM images or complete software distributions. Any unrecorded environment details are left unspecified rather than invented.
+The archives document verified laboratory results but are not distributed as fully reproducible VM packages. Unrecorded environment details are not invented.
 
 ## Laboratory scope
 
-The experiments were conducted as educational security laboratories. The repository does not distribute virtual machine disks, credentials, or private keys.
+These experiments were conducted in controlled educational environments. The repository does not distribute VM disks, private keys, credentials, or sensitive network captures.
