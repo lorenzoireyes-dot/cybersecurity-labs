@@ -16,9 +16,15 @@ A portfolio archive documenting completed educational cybersecurity experiments 
 
 [Read the network security laboratory documentation](02_wifi_sniffer/README.md).
 
+### [03 | Virus Propagation and Binary Self Modification Laboratory](03_virus_propagation/README.md)
+
+**ECE 4490/6490, virus propagation assignment.** Extended instructor provided C code in an isolated Windows XP VM to examine NTFS Alternate Data Streams, executable directory scanning, repeat infection detection, preservation of host program behavior, and binary hash variation. The public archive documents the experiment but does not distribute operational malware.
+
+[Read the virus propagation laboratory documentation](03_virus_propagation/README.md).
+
 ## Documentation policy
 
-Both projects are complete portfolio archives supported by their original reports and screenshots. No additional source files, VM exports, raw packet captures, or configuration uploads are planned. Some directories remain empty from the initial repository organization and do not represent outstanding deliverables.
+The existing two assignments are complete portfolio archives supported by their original reports and screenshots. No additional source files, VM exports, raw packet captures, or configuration uploads are planned. Some directories remain empty from the initial repository organization and do not represent outstanding deliverables.
 
 The archives document verified laboratory results but are not distributed as fully reproducible VM packages. Unrecorded environment details are not invented.
 
